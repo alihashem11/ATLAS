@@ -306,7 +306,7 @@ function updatePopup() {
 } 
 
 function onSingleClickFeatures(evt) {
-    if (doHover || sketch) {
+    if (sketch) {
         return;
     }
     if (!featuresPopupActive) {
