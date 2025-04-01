@@ -329,7 +329,6 @@ function onSingleClickFeatures(evt) {
             closer.blur();
         }
     }
-}
 
 map.on('pointermove', onPointerMove);
 
